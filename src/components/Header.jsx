@@ -3,7 +3,6 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Shield } from "lucide-react";
 
 const Header = () => {
   return (
@@ -14,12 +13,12 @@ const Header = () => {
       className="sticky top-0 z-50 bg-blue-900 bg-opacity-95 backdrop-blur-sm shadow-lg"
     >
       <nav className="container mx-auto py-4 flex justify-between items-center">
-        <Link to="/" className="flex items-center space-x-2">
-          <Shield className="h-8 w-8 text-orange-500" />
-          <div>
-            <h1 className="text-xl font-bold text-white">BOLTGARD</h1>
-            <p className="text-xs text-gray-200">SECURITY SERVICES LIMITED</p>
-          </div>
+        <Link to="/" className="flex items-center space-x-3">
+          <img 
+            src="/lovable-uploads/24228819-c77b-40e7-a541-6da19516595b.png" 
+            alt="Boltgard Security Services Limited Logo" 
+            className="h-12 w-auto"
+          />
         </Link>
         <div className="space-x-6">
           <Button variant="ghost" asChild className="text-white hover:text-orange-500">

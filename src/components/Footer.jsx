@@ -1,5 +1,5 @@
 
-import { Shield, MapPin, Phone, Mail } from "lucide-react";
+import { MapPin, Phone, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => (
@@ -8,11 +8,11 @@ const Footer = () => (
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <div className="flex items-center space-x-2 mb-4">
-            <Shield className="h-8 w-8 text-orange-500" />
-            <div>
-              <h3 className="text-lg font-bold">BOLTGARD</h3>
-              <p className="text-xs text-gray-400">SECURITY SERVICES LIMITED</p>
-            </div>
+            <img 
+              src="/lovable-uploads/24228819-c77b-40e7-a541-6da19516595b.png" 
+              alt="Boltgard Security Services Limited Logo" 
+              className="h-10 w-auto"
+            />
           </div>
           <p className="text-sm text-gray-400 mb-4">
             Precision Security. Trusted Protection. SCUML approved security services across Nigeria.
