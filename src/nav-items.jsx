@@ -1,8 +1,10 @@
-import { Home, CreditCard, LogIn, LayoutDashboard } from "lucide-react";
+
+import { Home, Shield, Users, Briefcase, Phone } from "lucide-react";
 import Index from "./pages/Index.jsx";
-import PlanSelection from "./pages/PlanSelection.jsx";
-import Login from "./pages/Login.jsx";
-import Dashboard from "./pages/Dashboard.jsx";
+import About from "./pages/About.jsx";
+import Services from "./pages/Services.jsx";
+import Careers from "./pages/Careers.jsx";
+import Contact from "./pages/Contact.jsx";
 
 /**
  * Central place for defining the navigation items. Used for navigation components and routing.
@@ -15,21 +17,27 @@ export const navItems = [
     page: <Index />,
   },
   {
-    title: "Plan Selection",
-    to: "/plan-selection",
-    icon: <CreditCard className="h-4 w-4" />,
-    page: <PlanSelection />,
+    title: "About Us",
+    to: "/about",
+    icon: <Shield className="h-4 w-4" />,
+    page: <About />,
   },
   {
-    title: "Login",
-    to: "/login",
-    icon: <LogIn className="h-4 w-4" />,
-    page: <Login />,
+    title: "Services",
+    to: "/services",
+    icon: <Users className="h-4 w-4" />,
+    page: <Services />,
   },
   {
-    title: "Dashboard",
-    to: "/dashboard",
-    icon: <LayoutDashboard className="h-4 w-4" />,
-    page: <Dashboard />,
+    title: "Careers",
+    to: "/careers",
+    icon: <Briefcase className="h-4 w-4" />,
+    page: <Careers />,
+  },
+  {
+    title: "Contact",
+    to: "/contact",
+    icon: <Phone className="h-4 w-4" />,
+    page: <Contact />,
   },
 ];

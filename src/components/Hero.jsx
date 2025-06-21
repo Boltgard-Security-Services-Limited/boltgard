@@ -1,46 +1,43 @@
+
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { ArrowRight } from "lucide-react";
+import { Shield, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
-const Hero = ({ email, setEmail, handleSubmit }) => (
-  <>
-    <motion.h2
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: 0.2 }}
-      className="text-5xl font-bold mb-6"
-    >
-      Unleash Your Business Potential
-    </motion.h2>
-    <motion.p
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: 0.4 }}
-      className="text-xl mb-8 max-w-2xl mx-auto"
-    >
-      MonsterScale helps you tame the complexities of growth and scale your business to monstrous heights.
-    </motion.p>
-    <motion.form
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: 0.6 }}
-      onSubmit={handleSubmit}
-      className="flex justify-center mb-12"
-    >
-      <Input
-        type="email"
-        placeholder="Enter your email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        className="w-64 mr-2 text-black"
-        required
-      />
-      <Button type="submit">
-        Get Started <ArrowRight className="ml-2 h-4 w-4" />
-      </Button>
-    </motion.form>
-  </>
+const Hero = () => (
+  <section className="py-20 px-4">
+    <div className="container mx-auto text-center">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+        className="max-w-4xl mx-auto"
+      >
+        <div className="flex justify-center mb-6">
+          <Shield className="h-16 w-16 text-orange-500" />
+        </div>
+        <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+          <span className="text-orange-500">Precision Security.</span>
+          <br />
+          <span className="text-white">Trusted Protection.</span>
+        </h1>
+        <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+          Boltgard Security Services Limited provides professional security solutions 
+          with disciplined and reliable operatives across Lagos, South-East, and Abuja.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Button size="lg" asChild className="bg-orange-500 hover:bg-orange-600 text-white">
+            <Link to="/services">
+              Our Services <ArrowRight className="ml-2 h-5 w-5" />
+            </Link>
+          </Button>
+          <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-blue-900">
+            <Link to="/contact">Contact Us</Link>
+          </Button>
+        </div>
+      </motion.div>
+    </div>
+  </section>
 );
 
 export default Hero;

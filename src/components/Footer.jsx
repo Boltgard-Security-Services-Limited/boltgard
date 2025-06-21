@@ -1,38 +1,75 @@
+
+import { Shield, MapPin, Phone, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
+
 const Footer = () => (
-  <footer className="bg-gray-800 text-white py-12 mt-24">
-    <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-      <div>
-        <h3 className="text-xl font-bold mb-4">MonsterScale</h3>
-        <p className="text-sm">Unleash your business potential with our powerful scaling solutions.</p>
-      </div>
-      <div>
-        <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-        <ul className="space-y-2">
-          <li><a href="#" className="hover:text-gray-300">Home</a></li>
-          <li><a href="#" className="hover:text-gray-300">Features</a></li>
-          <li><a href="#" className="hover:text-gray-300">Pricing</a></li>
-          <li><a href="#" className="hover:text-gray-300">About Us</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4 className="text-lg font-semibold mb-4">Contact</h4>
-        <ul className="space-y-2">
-          <li>Email: info@monsterscale.com</li>
-          <li>Phone: (123) 456-7890</li>
-          <li>Address: 123 Scale St, Growth City</li>
-        </ul>
-      </div>
-      <div>
-        <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
-        <div className="flex space-x-4">
-          <a href="#" className="hover:text-gray-300">Twitter</a>
-          <a href="#" className="hover:text-gray-300">LinkedIn</a>
-          <a href="#" className="hover:text-gray-300">Facebook</a>
+  <footer className="bg-slate-900 text-white py-12 mt-24">
+    <div className="container mx-auto px-4">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <div className="flex items-center space-x-2 mb-4">
+            <Shield className="h-8 w-8 text-orange-500" />
+            <div>
+              <h3 className="text-lg font-bold">BOLTGARD</h3>
+              <p className="text-xs text-gray-400">SECURITY SERVICES LIMITED</p>
+            </div>
+          </div>
+          <p className="text-sm text-gray-400 mb-4">
+            Precision Security. Trusted Protection. SCUML approved security services across Nigeria.
+          </p>
+          <p className="text-xs text-orange-500">SCUML approved</p>
+        </div>
+        
+        <div>
+          <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+          <ul className="space-y-2">
+            <li><Link to="/" className="text-gray-400 hover:text-orange-500 transition-colors">Home</Link></li>
+            <li><Link to="/about" className="text-gray-400 hover:text-orange-500 transition-colors">About Us</Link></li>
+            <li><Link to="/services" className="text-gray-400 hover:text-orange-500 transition-colors">Services</Link></li>
+            <li><Link to="/careers" className="text-gray-400 hover:text-orange-500 transition-colors">Careers</Link></li>
+            <li><Link to="/contact" className="text-gray-400 hover:text-orange-500 transition-colors">Contact</Link></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 className="text-lg font-semibold mb-4">Our Services</h4>
+          <ul className="space-y-2 text-sm text-gray-400">
+            <li>Manned Guarding</li>
+            <li>Facility Protection</li>
+            <li>Security Surveillance</li>
+            <li>Security Escorts</li>
+            <li>Event Security</li>
+            <li>24/7 Response</li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
+          <div className="space-y-2 text-sm text-gray-400">
+            <div className="flex items-start">
+              <Phone className="h-4 w-4 mr-2 mt-0.5 text-orange-500" />
+              <div>
+                <p>Lagos: 08102988744</p>
+                <p>Abuja: 08033222292</p>
+              </div>
+            </div>
+            <div className="flex items-center">
+              <Mail className="h-4 w-4 mr-2 text-orange-500" />
+              <span>boltgardssl@gmail.com</span>
+            </div>
+            <div className="flex items-start">
+              <MapPin className="h-4 w-4 mr-2 mt-0.5 text-orange-500" />
+              <span>Lagos • Abuja • South-East</span>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div className="container mx-auto mt-8 pt-8 border-t border-gray-700 text-center">
-      <p>&copy; 2024 MonsterScale. All rights reserved.</p>
+      
+      <div className="border-t border-gray-700 mt-8 pt-8 text-center">
+        <p className="text-gray-400">
+          &copy; 2024 Boltgard Security Services Limited. All rights reserved.
+        </p>
+      </div>
     </div>
   </footer>
 );

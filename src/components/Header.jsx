@@ -1,48 +1,42 @@
-import { useState, useEffect } from "react";
+
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { Shield } from "lucide-react";
 
 const Header = () => {
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    const loggedIn = localStorage.getItem("isLoggedIn") === "true";
-    setIsLoggedIn(loggedIn);
-  }, []);
-
-  const handleLogout = () => {
-    localStorage.removeItem("isLoggedIn");
-    setIsLoggedIn(false);
-    navigate("/login");
-  };
-
   return (
     <motion.header
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="sticky top-0 z-50 bg-purple-900 bg-opacity-90 backdrop-blur-sm shadow-md"
+      className="sticky top-0 z-50 bg-blue-900 bg-opacity-95 backdrop-blur-sm shadow-lg"
     >
       <nav className="container mx-auto py-4 flex justify-between items-center">
-        <Link to="/">
-          <h1 className="text-2xl font-bold">MonsterScale</h1>
+        <Link to="/" className="flex items-center space-x-2">
+          <Shield className="h-8 w-8 text-orange-500" />
+          <div>
+            <h1 className="text-xl font-bold text-white">BOLTGARD</h1>
+            <p className="text-xs text-gray-200">SECURITY SERVICES LIMITED</p>
+          </div>
         </Link>
-        <div className="space-x-4">
-          <Button variant="ghost" as={Link} to="/">Features</Button>
-          <Button variant="ghost" as={Link} to="/plan-selection">Pricing</Button>
-          <Button variant="ghost">About</Button>
-          {isLoggedIn ? (
-            <>
-              <Button variant="ghost" as={Link} to="/dashboard">Dashboard</Button>
-              <Button variant="secondary" onClick={handleLogout}>Logout</Button>
-            </>
-          ) : (
-            <Button variant="secondary" asChild>
-              <Link to="/login">Login</Link>
-            </Button>
-          )}
+        <div className="space-x-6">
+          <Button variant="ghost" asChild className="text-white hover:text-orange-500">
+            <Link to="/">Home</Link>
+          </Button>
+          <Button variant="ghost" asChild className="text-white hover:text-orange-500">
+            <Link to="/about">About Us</Link>
+          </Button>
+          <Button variant="ghost" asChild className="text-white hover:text-orange-500">
+            <Link to="/services">Services</Link>
+          </Button>
+          <Button variant="ghost" asChild className="text-white hover:text-orange-500">
+            <Link to="/careers">Careers</Link>
+          </Button>
+          <Button variant="secondary" asChild className="bg-orange-500 hover:bg-orange-600 text-white">
+            <Link to="/contact">Contact Us</Link>
+          </Button>
         </div>
       </nav>
     </motion.header>
