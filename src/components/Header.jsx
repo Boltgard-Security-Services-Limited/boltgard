@@ -15,7 +15,7 @@ const Header = () => {
       <nav className="container mx-auto py-4 flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-3">
           <img 
-            src="/lovable-uploads/24228819-c77b-40e7-a541-6da19516595b.png" 
+            src="/lovable-uploads/8b5813ca-165e-490d-912a-ffa388184f04.png" 
             alt="Boltgard Security Services Limited Logo" 
             className="h-12 w-auto"
           />
