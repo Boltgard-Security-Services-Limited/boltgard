@@ -96,7 +96,7 @@ const Contact = () => {
               <h2 className="text-2xl font-bold mb-6 text-orange-500">Send us a Message</h2>
               
               <form
-                action="https://formspree.io/f/mgvylrwl"
+                action="https://usebasin.com/f/40781e5e16b6"
                 method="POST"
                 enctype="multipart/form-data"
                 className="space-y-6"
