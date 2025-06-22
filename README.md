@@ -1,77 +1,97 @@
-# Welcome to your GPT Engineer project
+# Boltgard Security Services Limited 🌐🔐
 
-## Project info
+Welcome to the official website repository of **Boltgard Security Services Limited** — a trusted provider of high-quality physical and corporate security services in Nigeria.
 
-**Project**: monster-landing-magic 
+🚀 Visit the Live Website: [https://boltgard-security-services-limited.github.io/boltgard/#/](https://boltgard-security-services-limited.github.io/boltgard/#/)
 
-**URL**: https://run.gptengineer.app/projects/REPLACE_WITH_PROJECT_ID/improve
+---
 
-**Description**: make a landing page for a monster saas company 
+## 🛡️ About Boltgard
 
-## Who is the owner of this repository?
-By default, GPT Engineer projects are created with public GitHub repositories.
+**Boltgard Security Services Limited** is dedicated to offering reliable, technology-driven security services to corporate organizations, government agencies, and critical infrastructure sectors. Our motto, **"Precision Security. Trusted Protection."**, reflects our commitment to excellence and rapid response.
 
-However, you can easily transfer the repository to your own GitHub account by navigating to your [GPT Engineer project](https://run.gptengineer.app/projects/REPLACE_WITH_PROJECT_ID/improve) and selecting Settings -> GitHub. 
+---
 
-## How can I edit this code?
-There are several ways of editing your application.
+## 🧰 Tech Stack
 
-**Use GPT Engineer**
+This website was built using:
 
-Simply visit the GPT Engineer project at [GPT Engineer](https://run.gptengineer.app/projects/REPLACE_WITH_PROJECT_ID/improve) and start prompting.
+- ⚡ [Vite](https://vitejs.dev/) – blazing-fast development & build tool
+- ⚛️ [React](https://react.dev/) – modern JavaScript UI library
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) – utility-first CSS framework
+- 🧱 [ShadCN UI](https://ui.shadcn.com/) – accessible UI components for React
+- 🔁 [GitHub Actions](https://github.com/features/actions) – CI/CD pipeline
+- 🌐 [GitHub Pages](https://pages.github.com/) – free static site hosting
 
-Changes made via gptengineer.app will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📂 Project Structure
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in the GPT Engineer UI.
+```bash
+boltgard/
+├── public/                 # Static assets (images, logos, etc.)
+├── src/                    # React components and pages
+│   ├── components/         
+│   └── App.jsx
+├── index.html              # Root HTML entry
+├── vite.config.js          # Vite config with GitHub Pages base path
+├── tailwind.config.js      # Tailwind CSS config
+├── postcss.config.js       # PostCSS config for Tailwind
+├── .github/workflows/      # GitHub Actions workflow for deployment
+├── package.json            # Project metadata and scripts
+└── README.md               # You're here!
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps: 
+## 🛠️ Installation & Development
 
-```sh
-git clone https://github.com/GPT-Engineer-App/monster-landing-magic.git
-cd monster-landing-magic
-npm i
+Clone the repository and set it up locally:
 
-# This will run a dev server with auto reloading and an instant preview.
+```bash
+git clone https://github.com/Boltgard-Security-Services-Limited/boltgard.git
+cd boltgard
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Build for production:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+Preview the production build locally:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run preview
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with .
+## 📬 Contact
 
-- Vite
-- React
-- shadcn-ui
-- Tailwind CSS
+📍 Lagos Office: 38, Amoke Shoderu Street, Haruna Bus Stop, Ikorodu, Lagos  
+📍 Abuja Office: House No. 21(N), 5 Road Phase LL, FHA Lugbe, AMAC, FCT  
+📞 Tel (Lagos): 0810 298 8744  
+📞 Tel (Abuja): 0803 322 2292  
+✉️ Email: [boltgardsslimited@gmail.com](mailto:boltgardsslimited@gmail.com)
 
-## How can I deploy this project?
+---
 
-All GPT Engineer projects can be deployed directly via the GPT Engineer app. 
+## 💼 License
 
-Simply visit your project at [GPT Engineer](https://run.gptengineer.app/projects/REPLACE_WITH_PROJECT_ID/improve) and click on Share -> Publish.
+This project is owned by **Boltgard Security Services Limited**. All rights reserved. For licensing or reuse inquiries, please contact the admin.
 
-## I want to use a custom domain - is that possible?
+---
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain, then we recommend GitHub Pages.
+## 🙌 Acknowledgements
 
-To use GitHub Pages you will need to follow these steps: 
-- Deploy your project using GitHub Pages - instructions [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site)
-- Configure a custom domain for your GitHub Pages site - instructions [here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site)
+Special thanks to the developers and contributors of:
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [ShadCN UI](https://ui.shadcn.com/)
+- [GitHub Pages](https://pages.github.com/)
+
+---
