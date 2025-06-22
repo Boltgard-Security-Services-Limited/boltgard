@@ -66,7 +66,7 @@ const Footer = () => (
       
       <div className="border-t border-gray-700 mt-8 pt-8 text-center">
         <p className="text-gray-400">
-          &copy; 2024 Boltgard Security Services Limited. All rights reserved.
+          &copy; 2025 Boltgard Security Services Limited. All rights reserved.
         </p>
       </div>
     </div>
