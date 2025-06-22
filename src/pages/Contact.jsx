@@ -80,7 +80,7 @@ const Contact = () => {
                     </div>
                     <div className="flex items-center">
                       <Phone className="h-5 w-5 text-orange-500 mr-3" />
-                      <span className="text-gray-300">Southwest: 07026045887</span>
+                      <span className="text-gray-300">SouthEast & SouthWest: 07026045887</span>
                     </div>
                   </div>
                 </div>
