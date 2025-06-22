@@ -1,7 +1,7 @@
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Shield, ArrowRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Hero = () => (
@@ -14,7 +14,11 @@ const Hero = () => (
         className="max-w-4xl mx-auto"
       >
         <div className="flex justify-center mb-6">
-          <Shield className="h-16 w-16 text-orange-500" />
+          <img 
+            src="/lovable-uploads/a583c72b-e958-4634-9f27-379ab609c277.png" 
+            alt="Boltgard Security Services Limited Logo" 
+            className="h-24 w-auto"
+          />
         </div>
         <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
           <span className="text-orange-500">Precision Security.</span>
