@@ -44,7 +44,7 @@ const Careers = () => {
               </div>
               <p className="text-lg mb-6 leading-relaxed">
                 Boltgard Security Services Limited is recruiting disciplined and reliable 
-                operatives for immediate deployment in Lagos, South-East and Abuja.
+                operatives for immediate deployment in Lagos, South-East, South-West and Abuja.
               </p>
               
               <h3 className="text-xl font-semibold mb-4 text-orange-500">Requirements:</h3>
@@ -86,10 +86,10 @@ const Careers = () => {
               <div className="bg-blue-900 bg-opacity-50 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold mb-4 text-orange-500">Contact Information</h3>
                 <div className="space-y-2 text-gray-300">
-                  <p><strong>Lagos & South-East:</strong> 08102988744</p>
+                  <p><strong>Lagos & South-West:</strong> 08102988744</p>
                   <p><strong>Abuja:</strong> 08033222292</p>
                   <p><strong>Email:</strong> boltgardsslimited@gmail.com</p>
-                  <p><strong>SouthEast & SouthWest Tel:</strong> 07026045887</p>
+                  <p><strong>SouthEast Tel:</strong> 07026045887</p>
                 </div>
               </div>
               

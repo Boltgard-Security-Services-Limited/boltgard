@@ -36,7 +36,7 @@ const About = () => {
               </p>
               <p className="text-gray-300 mb-4 leading-relaxed">
                 We specialize in recruiting disciplined and reliable operatives for 
-                immediate deployment in Lagos, South-East, and Abuja, ensuring our 
+                immediate deployment in Lagos, South-East, South-West and Abuja, ensuring our 
                 clients receive the highest standard of security services.
               </p>
               <p className="text-gray-300 leading-relaxed">

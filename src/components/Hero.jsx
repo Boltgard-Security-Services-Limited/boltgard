@@ -27,7 +27,7 @@ const Hero = () => (
         </h1>
         <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
           Boltgard Security Services Limited provides professional security solutions 
-          with disciplined and reliable operatives across Lagos, South-East, and Abuja.
+          with disciplined and reliable operatives across Lagos, South-East, South-West and Abuja.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" asChild className="bg-orange-500 hover:bg-orange-600 text-white">

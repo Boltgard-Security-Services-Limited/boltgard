@@ -58,7 +58,7 @@ const Footer = () => (
             </div>
             <div className="flex items-start">
               <MapPin className="h-4 w-4 mr-2 mt-0.5 text-orange-500" />
-              <span>Lagos • Abuja • South-East</span>
+              <span>Lagos • Abuja • South-East • South-West</span>
             </div>
           </div>
         </div>

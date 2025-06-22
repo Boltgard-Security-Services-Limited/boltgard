@@ -6,7 +6,7 @@ const WhyChooseUs = () => {
   const features = [
     "SCUML Approved Security Company",
     "Disciplined and Reliable Operatives",
-    "Coverage in Lagos, South-East & Abuja",
+    "Coverage in Lagos, South-East, South-West & Abuja",
     "Prior Security/Military Experience",
     "24/7 Alert and Dependable Service"
   ];
