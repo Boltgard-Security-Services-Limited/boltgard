@@ -15,7 +15,7 @@ const Hero = () => (
       >
         <div className="flex justify-center mb-6">
           <img 
-            src="/lovable-uploads/dbd6e91d-767c-4673-9aa1-6f21a355cb54.png" 
+            src="/boltgard/lovable-uploads/dbd6e91d-767c-4673-9aa1-6f21a355cb54.png" 
             alt="Boltgard Security Services Limited Logo" 
             className="h-24 w-auto"
           />

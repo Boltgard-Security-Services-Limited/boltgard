@@ -8,7 +8,7 @@ const Footer = () => (
         <div>
           <div className="flex items-center space-x-2 mb-4">
             <img 
-              src="/lovable-uploads/dbd6e91d-767c-4673-9aa1-6f21a355cb54.png" 
+              src="/boltgard/lovable-uploads/dbd6e91d-767c-4673-9aa1-6f21a355cb54.png" 
               alt="Boltgard Security Services Limited Logo" 
               className="h-10 w-auto"
             />
