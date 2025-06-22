@@ -69,9 +69,9 @@ const Careers = () => {
                   <Button 
                     size="lg" 
                     className="bg-orange-500 hover:bg-orange-600 text-white"
-                    onClick={() => window.open('mailto:boltgardssl@gmail.com')}
+                    onClick={() => window.open('mailto:boltgardsslimited@gmail.com')}
                   >
-                    Send CV to boltgardssl@gmail.com
+                    Send CV to boltgardsslimited@gmail.com
                   </Button>
                 </div>
               </div>
