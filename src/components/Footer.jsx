@@ -1,3 +1,4 @@
+
 import { MapPin, Phone, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -8,7 +9,7 @@ const Footer = () => (
         <div>
           <div className="flex items-center space-x-2 mb-4">
             <img 
-              src="/lovable-uploads/a583c72b-e958-4634-9f27-379ab609c277.png" 
+              src="/lovable-uploads/0ea87f40-d0b9-4706-8a0b-dde1c59d2468.png" 
               alt="Boltgard Security Services Limited Logo" 
               className="h-10 w-auto"
             />
