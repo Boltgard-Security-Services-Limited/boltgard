@@ -88,7 +88,7 @@ const Careers = () => {
                 <div className="space-y-2 text-gray-300">
                   <p><strong>Lagos & South-East:</strong> 08102988744</p>
                   <p><strong>Abuja:</strong> 08033222292</p>
-                  <p><strong>Email:</strong> boltgardssl@gmail.com</p>
+                  <p><strong>Email:</strong> boltgardsslimited@gmail.com</p>
                   <p><strong>Southwest Tel:</strong> 07026045887</p>
                 </div>
               </div>
